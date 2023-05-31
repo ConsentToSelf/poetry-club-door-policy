@@ -16,5 +16,10 @@ function frontDoorResponse(line) {
   //   return newArr;
   return line[0][0];
 }
-console.log(frontDoorResponse(summer));
+// console.log(frontDoorResponse(summer));
 
+function frontDoorPassword(word) {
+  return word[0] + word.slice(1).toLowerCase();
+}
+
+console.log(frontDoorPassword("SUMMER"));
